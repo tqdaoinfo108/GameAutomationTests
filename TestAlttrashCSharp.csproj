@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+
+    <TargetFramework>net7.0</TargetFramework>
+    <LangVersion>10</LangVersion>
+    <IsPackable>false</IsPackable>
+    <UserSecretsId>21769aa3-4906-4549-beb2-fb349f65e2b6</UserSecretsId>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="AltTester-Driver" Version="2.1.0" />
+    <PackageReference Include="Appium.WebDriver" Version="4.4.5" />
+    <PackageReference Include="BrowserStackLocal" Version="2.3.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.UserSecrets" Version="6.0.1" />
+    <PackageReference Include="Microsoft.NET.Test.Sdk" Version="15.9.0" />
+    <PackageReference Include="nunit" Version="3.13.3" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.4.2" />
+  </ItemGroup>
+
+</Project>
